@@ -19,7 +19,7 @@ function App() {
 
   useEffect(() => {
     // Fetch products from Spring Boot Backend
-    fetch('http://localhost:8080/api/products')
+    fetch('https://ecommerce-project-4-xl5i.onrender.com')
       .then(response => response.json())
       .then(data => {
         if (data && data.length > 0) {
